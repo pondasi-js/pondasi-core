@@ -1,0 +1,62 @@
+const HttpCode = {
+	OK: 200,
+	CREATED: 201,
+	NO_CONTENT: 204,
+	BAD_REQUEST: 400,
+	UNAUTHORIZED: 401,
+	FORBIDDEN: 403,
+	NOT_FOUND: 404,
+	INTERNAL_SERVER_ERROR: 500,
+};
+
+const ContentType = {
+	PlainText: "text/plain",
+	HTML: "text/html",
+	CSS: "text/css",
+	JavaScript: "application/javascript",
+	JSON: "application/json",
+	XML: "application/xml",
+	JPEGImage: "image/jpeg",
+	PNGImage: "image/png",
+	GIFImage: "image/gif",
+	MPEGAudio: "audio/mpeg",
+	MP4Video: "video/mp4",
+	PDF: "application/pdf",
+	ZIPArchive: "application/zip",
+	MicrosoftWord: "application/msword",
+	MicrosoftExcel: "application/vnd.ms-excel",
+	MicrosoftPowerPoint: "application/vnd.ms-powerpoint",
+	CSV: "text/csv",
+	SVGImage: "image/svg+xml",
+	BMPImage: "image/bmp",
+	GzipCompressedFile: "application/gzip",
+	TarArchive: "application/x-tar",
+	MP3Audio: "audio/mpeg3",
+	WebMVideo: "video/webm",
+	TextCalendar: "text/calendar",
+	RichTextFormat: "application/rtf",
+	JavaScriptObjectNotationStream: "application/json-seq",
+	YAML: "application/x-yaml",
+	HTMLwithEmbeddedJavaScript: "application/js",
+	GIFV: "video/gif",
+	WindowsMediaAudio: "audio/x-ms-wma",
+	WindowsMediaVideo: "video/x-ms-wmv",
+	ExecutableFile: "application/octet-stream",
+	FontFile: "application/font-woff",
+	VirtualRealityModelingLanguage: "model/vrml",
+	GeoJSON: "application/geo+json",
+	WaveformAudioFileFormat: "audio/wav",
+	ExcelOpenXMLSpreadsheet:
+		"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+	PowerPointOpenXMLPresentation:
+		"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+	WordOpenXMLDocument:
+		"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+	PortableNetworkGraphics: "image/x-png",
+	PhotoshopDocument: "image/vnd.adobe.photoshop",
+};
+
+module.exports = {
+	HttpCode,
+	ContentType,
+};
